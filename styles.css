@@ -1,0 +1,1513 @@
+
+@import url ("https://fonts.googleapis.com/css?family=Cabin");
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+
+#nav {
+	
+	width: 100%;
+	background-color: rgba(255, 252, 252, 0.9);
+	text-align: center;
+	border-radius: 10px;
+	position: fixed;
+	top: 5px;
+	z-index: 1;
+	
+}
+
+#nav li {
+	display: inline-block;
+	font-size: 19px;
+	padding-right: 20px;
+}
+
+#nav a {
+	display: inline-block;
+	color: #3f4242;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px 50px 0px 50px;
+	border-radius: 5px;
+
+}
+
+li a:hover {
+	background-color: #997e07;
+}
+
+html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("back7.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	filter: brightness(135%);
+}
+
+#pagediv {
+	position: absolute;
+	top: 800px; 
+	height: 50px;
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background-color: white;
+}
+
+#pagediv2 {
+	position: absolute;
+	top: 850px; 
+	height: 50px;
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background-color: white;
+}
+
+#pagediv3 {
+	position: absolute;
+	top: 850px; 
+	height: 50px;
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background-color: white;
+}
+
+
+#page2 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(173,120,22,1);
+	height: 750px;
+	width: 100%;
+	
+}
+
+#page3 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(2,145,140,0.65);
+	height: 800px;
+	width: 100%;
+}
+
+#page4 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(167,0,0,.5);
+	height: 800px;
+	width: 100%;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+#page5 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(137,133,133,.9);
+	height: 850px;
+	width: 100%;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+.contactheading {
+	font-size: 20px;
+	font-family: "verdana";
+	display: inline-block;
+	padding-right: 20px;
+	color: black;
+}
+
+#conheadcontainer {
+	position: absolute;
+	top: 73%;
+	left: 17%;
+}
+
+h4 {
+	display: inline-block;
+	font-family: "verdana";
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+#footer {
+	position: absolute;
+	top: 900px;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;'
+	border-bottom: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+
+#page2 #profileimage {
+	position: relative;
+	bottom: -20px;
+}
+ 
+#profileimage {
+	position: relative;
+	display: inline;
+	object-position: center;
+	width: 500px;
+}
+
+#profimgsrc {
+	width: 600px;
+	height: 950px;
+}
+
+#name {
+	color: white;
+	font-weight: normal;
+	font-family: "courier";
+	font-size: 70px;
+	position: relative;
+	
+}
+
+#program {
+	color: gray;
+	font-family: "courier";
+	font-size: 35px;
+	position: relative;
+}
+
+#title {
+	text-align: center;
+	position: absolute;
+	left: 150px;
+	top: 150px;
+}
+
+
+.button {
+    background-color: #751207;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "courier";
+    
+}
+
+div .button {
+	text-align: center;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 2px 2px rgb(112,110,0), 20px 17px 50px 20px rgba(0,0,0,0.19);
+}
+
+.button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span{
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#about {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: 'verdana';
+	font-weight: normal;
+	text-shadow: 1px 1px black;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+
+#aboutmepara {
+	color: white;
+	text-align: justify;
+	position: absolute;
+	left: 42%;
+	font-size: 18px;
+	font-family: "verdana";
+	text-indent: 50px;
+	line-height: 2.0;
+	text-shadow: 0.8px 0.8px black;
+	word-wrap: break-word;
+	width: 50%;
+}
+
+#skillstitle {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: "verdana";
+	font-weight: normal;
+	text-shadow: 1px 1px black;	
+	text-decoration: none;	
+	margin-bottom: 60px;
+}
+
+#skillspara {
+	color: white;
+	text-align: justify;
+	position: absolute;
+	top: 175px;
+	left: 52%;
+	font-size: 14.5px;
+	font-family: "verdana";
+	text-indent: 50px;
+	line-height: 1.75;
+	text-shadow: 0.8px 0.8px black;
+	word-wrap: break-word;
+	width: 45%;
+	float: right;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  	width: 27%;
+  	background-color: #ddd;
+  	border-radius:30px;
+  	display: inline-block;
+  	text-decoration: none;
+}
+
+.skills {
+  	text-align: right;
+  	padding-right: 20px;
+  	line-height: 22px;
+  	color: black;
+  	text-decoration: none;
+}
+
+.html {
+	width: 80%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+	text-decoration: none;
+}
+.css {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana"
+}
+.js {
+	width: 25%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana"
+}
+.cpp {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+.java {
+	width: 40%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+.sql {
+	width: 60%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+.python {
+	width: 60%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.auto {
+	width: 80%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.solid {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.arduino {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.soldering {
+	width: 90%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+
+
+.skillbartitles {
+	font-family: "verdana";
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px #02710f;
+	padding-left: 30px;
+}
+
+.htmlpad {
+	padding-right: 140px;	
+}
+.csspad {
+	padding-right: 157px;
+}
+.jspad {
+	padding-right: 80px;
+}
+.cpppad {
+	padding-right: 150px;
+}
+.javapad {
+	padding-right: 152px;
+}
+.sqlpad {
+	padding-right: 157px;
+}
+.pythonpad {
+	padding-right: 120px;
+}
+.autopad {
+	padding-right: 95.5px;
+}
+.solidpad {
+	padding-right: 31px;
+}
+.arduinopad {
+	padding-right: 110px;
+}
+.solpad {
+	padding-right: 88px;
+}
+
+#projects {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: "verdana";
+	font-weight: normal;
+	text-shadow: 1px 1px black;
+	text-decoration: none;
+}
+
+.frame {
+	border: 1px solid black;
+	margin-left: 16%;
+	width: 100%;
+	height: 100%;
+	color: blue;
+}
+
+.image-container {
+	position: relative;
+    width: 23%;
+    height: 25%;
+    float: left;
+    margin-right: 8%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.image-container .imageafter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .imageafter {
+    display: block;
+    background: rgba(0, 148, 168, .5);
+    margin-left: 16%;
+    text-align: center;
+    font-size: 18.5px;
+    font-family: "verdana";
+    padding-top: 80px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#contact {
+	color: rgba(0,0,0);
+	text-align: center;
+	font-size: 70px;
+	font-family: "verdana";
+	font-weight: normal;
+	text-shadow: 1px 1px white;
+	text-decoration: none;
+}
+
+#map {
+	position: absolute;
+	left: 17%;
+	width: 65%;
+	height: 45%;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+#nav {
+	
+	width: 100%;
+	background-color: rgba(255, 252, 252, 0.9);
+	text-align: center;
+	border-radius: 10px;
+	position: fixed;
+	top: 5px;
+	z-index: 1;
+	
+}
+
+#nav li {
+	display: inline-block;
+	font-size: 19px;
+	padding-right: 20px;
+}
+
+#nav a {
+	display: inline-block;
+	color: #3f4242;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px 50px 0px 50px;
+	border-radius: 5px;
+
+}
+
+li a:hover {
+	background-color: #997e07;
+}
+
+html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("back7.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	filter: brightness(135%);
+}
+
+#pagediv {
+	position: absolute;
+	top: 688px; 
+	height: 50px;
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background-color: white;
+}
+
+#pagediv2 {
+	position: absolute;
+	top: 850px; 
+	height: 50px;
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background-color: white;
+}
+
+#pagediv3 {
+	position: absolute;
+	top: 700px; 
+	height: 50px;
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background-color: white;
+}
+
+#page2 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(173,120,22,1);
+	height: 638px;
+	width: 100%;
+	
+}
+
+#page3 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(2,145,140,0.65);
+	height: 800px;
+	width: 100%;
+}
+
+#page4 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(167,0,0,.5);
+	height: 650px;
+	width: 100%;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+#page5 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(137,133,133,.9);
+	height: 850px;
+	width: 100%;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+.contactheading {
+	font-size: 20px;
+	font-family: "verdana";
+	display: inline-block;
+	padding-right: 20px;
+	color: black;
+}
+
+#conheadcontainer {
+	position: absolute;
+	top: 73%;
+	left: 17%;
+}
+
+h4 {
+	display: inline-block;
+	font-family: "verdana";
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+#footer {
+	position: absolute;
+	top: 920px;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;'
+	border-bottom: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+
+#page2 #profileimage {
+	position: relative;
+	bottom: -20px;
+}
+ 
+#profileimage {
+	position: relative;
+	display: inline;
+	object-position: center;
+	width: 500px;
+}
+
+#profimgsrc {
+	width: 475px;
+	height: 750px;
+}
+
+#name {
+	color: white;
+	font-weight: normal;
+	font-family: "courier";
+	font-size: 70px;
+	position: relative;
+	
+}
+
+#program {
+	color: gray;
+	font-family: "courier";
+	font-size: 35px;
+	position: relative;
+}
+
+#title {
+	text-align: center;
+	position: absolute;
+	left: 150px;
+	top: 150px;
+}
+
+
+.button {
+    background-color: #751207;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "courier";
+    
+}
+
+div .button {
+	text-align: center;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 2px 2px rgb(112,110,0), 20px 17px 50px 20px rgba(0,0,0,0.19);
+}
+
+.button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span{
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#about {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: 'verdana';
+	font-weight: normal;
+	text-shadow: 1px 1px black;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+
+#aboutmepara {
+	color: white;
+	text-align: justify;
+	position: absolute;
+	left: 42%;
+	font-size: 18px;
+	font-family: "verdana";
+	text-indent: 50px;
+	line-height: 2.0;
+	text-shadow: 0.8px 0.8px black;
+	word-wrap: break-word;
+	width: 50%;
+}
+
+#skillstitle {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: "verdana";
+	font-weight: normal;
+	text-shadow: 1px 1px black;	
+	text-decoration: none;	
+	margin-bottom: 60px;
+}
+
+#skillspara {
+	color: white;
+	text-align: justify;
+	position: absolute;
+	top: 175px;
+	left: 53%;
+	font-size: 13px;
+	font-family: "verdana";
+	text-indent: 50px;
+	line-height: 1.75;
+	text-shadow: 0.8px 0.8px black;
+	word-wrap: break-word;
+	width: 45%;
+	float: right;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  	width: 27%;
+  	background-color: #ddd;
+  	border-radius:30px;
+  	display: inline-block;
+  	text-decoration: none;
+}
+
+.skills {
+  	text-align: right;
+  	padding-right: 20px;
+  	line-height: 22px;
+  	color: black;
+  	text-decoration: none;
+}
+
+.html {
+	width: 80%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+	text-decoration: none;
+}
+.css {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana"
+}
+.js {
+	width: 25%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana"
+}
+.cpp {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+.java {
+	width: 40%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+.sql {
+	width: 60%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+.python {
+	width: 60%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.auto {
+	width: 80%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.solid {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.arduino {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.soldering {
+	width: 90%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+
+
+.skillbartitles {
+	font-family: "verdana";
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px #02710f;
+	padding-left: 30px;
+}
+
+.htmlpad {
+	padding-right: 140px;	
+}
+.csspad {
+	padding-right: 157px;
+}
+.jspad {
+	padding-right: 80px;
+}
+.cpppad {
+	padding-right: 150px;
+}
+.javapad {
+	padding-right: 152px;
+}
+.sqlpad {
+	padding-right: 157px;
+}
+.pythonpad {
+	padding-right: 120px;
+}
+.autopad {
+	padding-right: 95.5px;
+}
+.solidpad {
+	padding-right: 31px;
+}
+.arduinopad {
+	padding-right: 110px;
+}
+.solpad {
+	padding-right: 88px;
+}
+
+#projects {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: "verdana";
+	font-weight: normal;
+	text-shadow: 1px 1px black;
+	text-decoration: none;
+}
+
+.frame {
+	border: 1px solid black;
+	margin-left: 16%;
+	width: 100%;
+	height: 100%;
+	color: blue;
+}
+
+.image-container {
+	position: relative;
+    width: 24%;
+    height: 24%;
+    float: left;
+    margin-right: 6%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.image-container .imageafter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .imageafter {
+    display: block;
+    background: rgba(0, 148, 168, .5);
+    margin-left: 16%;
+    text-align: center;
+    font-size: 18.5px;
+    font-family: "verdana";
+    padding-top: 60px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#contact {
+	color: rgba(0,0,0);
+	text-align: center;
+	font-size: 70px;
+	font-family: "verdana";
+	font-weight: normal;
+	text-shadow: 1px 1px white;
+	text-decoration: none;
+}
+
+#map {
+	position: absolute;
+	left: 17%;
+	width: 65%;
+	height: 45%;
+}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#nav {
+	
+	width: 100%;
+	background-color: rgba(255, 252, 252, 0.9);
+	text-align: center;
+	border-radius: 10px;
+	position: fixed;
+	top: 5px;
+	z-index: 1;
+	
+}
+
+#nav li {
+	display: inline-block;
+	font-size: 19px;
+	padding-right: 20px;
+}
+
+#nav a {
+	display: inline-block;
+	color: #3f4242;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0px 50px 0px 50px;
+	border-radius: 5px;
+
+}
+
+li a:hover {
+	background-color: #997e07;
+}
+
+html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("back7.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	filter: brightness(135%);
+}
+
+#pagediv {
+	position: absolute;
+	top: 688px; 
+	height: 50px;
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background-color: white;
+}
+
+#pagediv2 {
+	position: absolute;
+	top: 850px; 
+	height: 50px;
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background-color: white;
+}
+
+#pagediv3 {
+	position: absolute;
+	top: 700px; 
+	height: 50px;
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background-color: white;
+}
+
+#page2 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(173,120,22,1);
+	height: 638px;
+	width: 100%;
+	
+}
+
+#page3 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(2,145,140,0.65);
+	height: 800px;
+	width: 100%;
+}
+
+#page4 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(167,0,0,.5);
+	height: 650px;
+	width: 100%;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+#page5 {
+	position: absolute;
+	top: 50px;
+	background-color: rgba(137,133,133,.9);
+	height: 850px;
+	width: 100%;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+
+.contactheading {
+	font-size: 20px;
+	font-family: "verdana";
+	display: inline-block;
+	padding-right: 20px;
+	color: black;
+}
+
+#conheadcontainer {
+	position: absolute;
+	top: 73%;
+	left: 17%;
+}
+
+h4 {
+	display: inline-block;
+	font-family: "verdana";
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+#footer {
+	position: absolute;
+	top: 920px;
+	bottom: 0px;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;'
+	border-bottom: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+
+#page2 #profileimage {
+	position: relative;
+	bottom: -20px;
+}
+ 
+#profileimage {
+	position: relative;
+	display: inline;
+	object-position: center;
+	width: 500px;
+}
+
+#profimgsrc {
+	width: 475px;
+	height: 750px;
+}
+
+#name {
+	color: white;
+	font-weight: normal;
+	font-family: "courier";
+	font-size: 70px;
+	position: relative;
+	
+}
+
+#program {
+	color: gray;
+	font-family: "courier";
+	font-size: 35px;
+	position: relative;
+}
+
+#title {
+	text-align: center;
+	position: absolute;
+	left: 150px;
+	top: 150px;
+}
+
+
+.button {
+    background-color: #751207;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "courier";
+    
+}
+
+div .button {
+	text-align: center;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 2px 2px rgb(112,110,0), 20px 17px 50px 20px rgba(0,0,0,0.19);
+}
+
+.button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span{
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#about {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: 'verdana';
+	font-weight: normal;
+	text-shadow: 1px 1px black;
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+
+#aboutmepara {
+	color: white;
+	text-align: justify;
+	position: absolute;
+	left: 42%;
+	font-size: 18px;
+	font-family: "verdana";
+	text-indent: 50px;
+	line-height: 2.0;
+	text-shadow: 0.8px 0.8px black;
+	word-wrap: break-word;
+	width: 50%;
+}
+
+#skillstitle {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: "verdana";
+	font-weight: normal;
+	text-shadow: 1px 1px black;	
+	text-decoration: none;	
+	margin-bottom: 60px;
+}
+
+#skillspara {
+	color: white;
+	text-align: justify;
+	position: absolute;
+	top: 175px;
+	left: 53%;
+	font-size: 13px;
+	font-family: "verdana";
+	text-indent: 50px;
+	line-height: 1.75;
+	text-shadow: 0.8px 0.8px black;
+	word-wrap: break-word;
+	width: 45%;
+	float: right;
+}
+
+* {box-sizing: border-box}
+
+.container {
+  	width: 27%;
+  	background-color: #ddd;
+  	border-radius:30px;
+  	display: inline-block;
+  	text-decoration: none;
+}
+
+.skills {
+  	text-align: right;
+  	padding-right: 20px;
+  	line-height: 22px;
+  	color: black;
+  	text-decoration: none;
+}
+
+.html {
+	width: 80%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+	text-decoration: none;
+}
+.css {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana"
+}
+.js {
+	width: 25%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana"
+}
+.cpp {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+.java {
+	width: 40%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+.sql {
+	width: 60%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+.python {
+	width: 60%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.auto {
+	width: 80%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.solid {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.arduino {
+	width: 70%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+.soldering {
+	width: 90%; 
+	background-color: #02710f; 
+	border-radius:20px;
+	font-family: "verdana";
+}
+
+
+
+.skillbartitles {
+	font-family: "verdana";
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px #02710f;
+	padding-left: 30px;
+}
+
+.htmlpad {
+	padding-right: 140px;	
+}
+.csspad {
+	padding-right: 157px;
+}
+.jspad {
+	padding-right: 80px;
+}
+.cpppad {
+	padding-right: 150px;
+}
+.javapad {
+	padding-right: 152px;
+}
+.sqlpad {
+	padding-right: 157px;
+}
+.pythonpad {
+	padding-right: 120px;
+}
+.autopad {
+	padding-right: 95.5px;
+}
+.solidpad {
+	padding-right: 31px;
+}
+.arduinopad {
+	padding-right: 110px;
+}
+.solpad {
+	padding-right: 88px;
+}
+
+#projects {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	font-family: "verdana";
+	font-weight: normal;
+	text-shadow: 1px 1px black;
+	text-decoration: none;
+}
+
+.frame {
+	border: 1px solid black;
+	margin-left: 16%;
+	width: 100%;
+	height: 100%;
+	color: blue;
+}
+
+.image-container {
+	position: relative;
+    width: 24%;
+    height: 24%;
+    float: left;
+    margin-right: 6%;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.image-container .imageafter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+.image-container:hover .imageafter {
+    display: block;
+    background: rgba(0, 148, 168, .5);
+    margin-left: 16%;
+    text-align: center;
+    font-size: 18.5px;
+    font-family: "verdana";
+    padding-top: 60px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#contact {
+	color: rgba(0,0,0);
+	text-align: center;
+	font-size: 70px;
+	font-family: "verdana";
+	font-weight: normal;
+	text-shadow: 1px 1px white;
+	text-decoration: none;
+}
+
+#map {
+	position: absolute;
+	left: 17%;
+	width: 65%;
+	height: 45%;
+}
+
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	
+
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  
+
+}
+

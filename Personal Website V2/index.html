@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href ="css/styles.css">
+	<link rel="stylesheet" href ="css/bootstrap.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	
+	<title>Rohit Sangaraju</title>
+	<link rel="icon" href="img/RSlogo.png" type="image/x-icon">
+	
+	<script src="js/typed.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+  		document.addEventListener('DOMContentLoaded', function(){
+     
+      		Typed.new('.display-2-1',  {
+        	strings: ["Hi, I'm Rohit Sangaraju ^1000" , "I'm 19 Years Old^1000" , "...and I Love Coding! ^2000"],
+        	typeSpeed: 0,
+        	loop:true,
+     	
+      });
+  	});
+
+	</script>
+
+	<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+</head>
+<body id="home">
+
+
+
+	<div id="container">
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Disclaimer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        *This website was created by <span style = "font-weight: bold"> Rohit Sangaraju </span> between the months of May and July of 2017.
+        This website has not been directly influenced by any other website and has been created from
+        original thoughts. 
+        <br><br>
+        <span style = "font-weight: bold; text-decoration: underline;">Credits:</span>
+        <ul>
+        	<li>All Icons downloaded from <a href = "https://icons8.com/">https://icons8.com/</a>.</li>
+        	<li>All Public Images sourced from <a href="https://images.google.ca/?gws_rd=ssl">Google-Images</a>.</li>
+        	<li>All Private Images self-photographed.</li>
+        	<li>3D Carousel referenced from <a href="https://codepen.io/nopr/pen/rfBJx">codepen</a>, with personal modifications</li>
+        	<li>3D Card-Flip referenced from <a href="https://codepen.io/darkwing/pen/bCali">codepen</a>, with personal modifications</li>
+		</ul>
+		<br>
+        <span style = "font-weight: bold; text-decoration: underline;">Development Tools:</span>
+        <p>HTML, CSS, JavaScript, JQuery, Bootstrap, Typed.js (library)</p>
+        <br>
+        <p style="text-align: center;font-style: italic;">&copy; Rohit Sangaraju 2017</p>
+      </div>
+      <div class="modal-footer">
+        <button id="ModalButton" type="button" class="btn btn-secondary" data-dismiss="modal">Okay, Got it!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+		<header> 
+			<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
+		  		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    		<span class="navbar-toggler-icon"></span>
+		  		</button>
+		  		<a href="#home"><img src="img/RSlogo.png" id="logo"  width = "40vw" height = "40vw"></a>
+
+			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<ul class="navbar-nav">
+					<li class="nav-item ">
+						<a class="nav-link" href="#Section1" style = "color:white;">About <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Section2" style = "color:white;">Skills</a>
+					</li>	
+					<li class="nav-item">
+							<a class="nav-link" href="#Section3" style = "color:white;">Projects</a>
+					</li>
+					<li class="nav-item">
+							<a class="nav-link" href="#Section5" style = "color:white;">Experience</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Section7" style = "color:white;">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="resume.pdf" style = "color:white; background-color: #3498db">Resume</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+
+
+		<h1 class = "display-2-1"> 
+		</h1>
+		<div id="subHeadList">
+			<ul>
+				<li id="subHead1">-Passion</li>
+				<li id="subHead2">-Creativity</li>
+				<li id="subHead3">-Innovation</li>
+			</ul>
+
+		</div>
+
+		<div id = "contactIcons"> 
+			<table id="conIconTable">
+				<tr>
+					<td> <img src="img/github.png" id = "conIconImg1"> </td>
+					<td> <img src="img/linkedin.png" id = "conIconImg2"> </td>
+					<td> <img src="img/email.png" id = "conIconImg3"> </td>
+				</tr>
+			</table>
+			<a  href="#Section1"><img src="img/downarrow.png" id="HomeDownArrow"></a>
+		</div>
+		
+
+
+
+		</header>
+
+
+	</div>
+
+		<div>
+			<section id="Section1">
+				<article id = "art1">
+
+				<h3 class="displayTitle"> -About- </h3>
+
+
+				<div id = "profile_Image_Box">
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block prof-img" src="img/Rohit_Sangaraju_Profile1_resized.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block prof-img" src="img/Rohit_Sangaraju_Profile2_resized.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block prof-img" src="img/Rohit_Sangaraju_Profile3_resized.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	
+				</div>
+
+
+				<p id="para1">Ever since I can remember, I've always loved to take things apart and put them back together. 
+				Learning about the inner intracacies of things, whether it be a pen, watch or a computer, simply fascinated me. 
+				This is why I chose to study <span style = "font-weight:bold;">Mechatronics Engineering</span> at the <span style = "font-weight:bold;">University of Waterloo</span>, where I hope to recieve a 
+				strong theoretical education and an even stronger practical skillset which I can use for the rest of my career 
+				as an engineer.
+
+				<br><br>
+
+				I am also a huge fan of <span style = "font-weight:bold;">sports</span>, <span style = "font-weight:bold;">music</span> and <span style = "font-weight:bold;">history</span>. I can basically play
+				any sport at an adequately decent level, except soccer, <span style = "font-weight:bold;">(I tend to kick people, instead of the ball <span style="font-size: 1.5em;">&#9785;</span>)</span>, with an added dexterity towards <span style = "font-weight:bold;">
+				racquet</span> and <span style = "font-weight:bold;">ball/bat</span> sports. 
+				I also enjoy <span style = "font-weight:bold;">listening</span> to and <span style = "font-weight:bold;">playing</span> a wide variety of <span style = "font-weight:bold;">musical genres</span>. Finally, I love learning about the past, and understanding
+				where we come from by <span style = "font-weight:bold;">visiting museums</span> and <span style = "font-weight:bold;">historical heritage sites</span>.
+				<br>
+
+				</p>
+
+				<div id = "aboutimgcontainer"> 
+					<span>
+						<img src="img/Monitor.png" id="About_Images1">
+						<img src="img/Robot.png" id="About_Images2">
+						<img src="img/Knight.png" id="About_Images3">
+						<img src="img/Violin.png" id="About_Images4">
+						<img src="img/Birdie.png" id="About_Images5">
+					</span>
+					<span id = "abtImgTextBox">
+						
+						<ul id = "abtImgText1">
+							<li>- I simply love <strong>Computers</strong>! </li>
+							<li>- I like to code in my free time.</li>
+						
+						</ul>
+						<ul id = "abtImgText2">
+							<li>- I'm a big fan of <strong>Robots</strong>! </li>
+							<li>- I tinker with Mech and Elec parts all the time!</li>
+						</ul>
+						<ul id = "abtImgText3">
+							<li>- I'm an avid <strong>Chess</strong> player!</li>
+							<li>-Play Me <strong><a href="https://www.chess.com/member/rohitsangaraju250">@Chess.com</a></strong>, <strong><a href=https://www.chesscube.com/play/online-chess/>@Chesscube.com</a></strong>.</li>
+							
+						</ul>
+						<ul id = "abtImgText4">	
+							<li>- Learned <strong>Violin</strong> for 10 yrs.</li>
+							<li>- Passed 4/6 Grades with Honours!</li>
+						</ul>
+						<ul id = "abtImgText5">
+							<li><strong>Badminton = Fav Sport!</strong></li>
+							<li>Also, love table tennis, tennis and squash.</li>
+						</ul>
+					
+		
+					</span>
+				</div>
+						
+			
+			 </article>
+
+	
+
+
+			</section>
+		</div>
+
+		<div>
+			<section id="Section2">
+				<article id = "art2">
+
+				<h3 class="displayTitle"> -Skills- </h3>
+
+				<p id="para2">	Prolonged curiosity has driven me to learn many new things throughout my life. From building a simple webpage in grade 9, to creating a full fledged, interactive website within a course offered by Coursera last year; I have come a long way in the field of web development. Currently I am quite confident in my <span style = "font-weight:bold;">HTML</span> and <span style = "font-weight:bold;">CSS</span> skills and have a good working knowledge of <span style = "font-weight:bold;">JavaScript </span> and 2 of it's well-known frameworks (<span style = "font-weight:bold;">AngularJS</span> and <span style = "font-weight:bold;">React</span>).
+					In terms of core programming languages, I have over 2 years of experience with <span style = "font-weight:bold;">C++</span>, 6 months of experience <span style = "font-weight:bold;">Java</span>, and 3 months of experience with <span style = "font-weight:bold;">C#</span>. I am currently exploring <span style = "font-weight:bold;">Python</span> and <span style = "font-weight:bold;">C</span> in my free time. As for server-side technologies, I have a strong understanding of <span style = "font-weight:bold;">SQL</span>, and good knowledge of <span style = "font-weight:bold;">PHP</span>. 
+				
+					I'm also familar with mobile development. I have decent confidence with <span style = "font-weight:bold;">Android</span> and am currently working on improving my knowledge of the <span style = "font-weight:bold;">IOS
+					</span> environment. 
+				
+				
+				</p>
+		
+
+				</article>
+
+			</section>
+
+				<div id = "skillsDiv">
+					<div id = "skillsImgContainer"> 
+
+						<div class="carcontainer">
+		  					<div class="threeDcarousel">
+				    			<div class="item a"> <img src = "img/css3.png"></img> </div>
+				    			<div class="item b"> <img src = "img/jsV2.jpg"></img></div>
+				    			<div class="item n"> <img src = "img/python.png"></img></div>
+				    			<div class="item c"> <img src = "img/c.png"></img></div>
+				    			<div class="item d"> <img src = "img/cpp.png"></img></div>
+				    			<div class="item e"> <img src = "img/cs.png"></img></div>
+				   				<div class="item f"> <img src = "img/java.png"></img></div>
+				   				<div class="item g"> <img src = "img/reactjs.png"></img></div>
+				    			<div class="item h"> <img src = "img/angular.jpg"></img></div>
+				    			<div class="item i"> <img src = "img/meteor.png"></img></div>
+				    			<div class="item j"> <img src = "img/nodejs.png"></img></div>
+				   				<div class="item k"> <img src = "img/jquery.png"></img></div>
+								<div class="item o"> <img src = "img/bootstrap.jpg"></img></div>
+				   				<div class="item l"> <img src = "img/android.png"></img></div>
+				    			<div class="item m"> <img src = "img/swift.png"></img></div>
+				    			<div class="item p"><img src = "img/html5.png"></img></div>
+		  					</div>
+		  				</div>
+		  				
+					</div>
+					<div class="next"> <img src = "img/right-arrow.png" class="carbutton"> </img> </div>
+						<div class="prev"> <img src = "img/left-arrow.png" class="carbutton"> </img> </div>
+				</div>
+
+		</div>
+
+		
+		<div>
+			<section id="Section3">
+				<article id = "art3">
+					
+				<h3 class="displayTitle" > -Projects- </h3>
+					<br><br>
+				</article>
+				
+			</section>
+		</div>
+
+
+		<div>
+			<section id="Section4">
+				<article id = "art4">
+				<br>
+				<h1 class = "ProjSubTitle1" >software</h1>
+
+				<div class="row">
+
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/portfolioWebsiteOLD.png" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title"> Personal Website V1 </div>
+							<p> The first portfolio website I made back in March 2017. Wasn't responsive and had a dull look, but was definitely functional. 
+							</p>
+
+							<button type="button" id = "web1Button" class = "projectButtons"> Learn More </button>
+
+						</div>
+					</div>
+				</div>
+
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/portfolioWebsite.png" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title"> Personal Website V2 </div>
+							<p> My latest Portfolio Website! No need to talk much more about it because you are already currently here, but if you wanna learn more click the button below!
+							</p>	
+							<button type="button" id = "web2Button" class = "projectButtons"> Learn More </button>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/DavidChu.png" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title"> Coursera Practise Website </div>
+							<p> The first website that I ever made with the help of a front-end course offer by "Coursera.com". This was the first time I used the large plethora of features within HTML, CSS and JS. 
+							</p>
+
+							<button type="button" id = "web3Button" class = "projectButtons"> Learn More </button>
+						</div>
+					</div>
+				</div>
+
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/ChromeExtensionPic.png" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title"> Select N'Search </div>
+							<p> A chrome extension that I built with my team at the 2016 Waterloo Enghacks hackathon (We also won 1st place!). This extension allows the user to select any amount of text and click a keyboard shortcut to search that text on multiple websites.
+							</p>
+
+							<button type="button" id = "web4Button" class = "projectButtons"> Learn More </button>
+						</div>
+					</div>
+				</div>
+
+		
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/todoList.png" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title"> Todo List </div>
+							<p> A simple Todo-List program that I created using object-oriented JavaScript. I followed a tutorial from "watchandcode.com", and also implemented my own personal style to develop this application. 
+							</p>
+
+							<button type="button" id = "web5Button" class = "projectButtons"> Learn More </button>
+						</div>
+					</div>
+				</div>
+
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/brickgame.png" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title"> Brick-Breaker </div>	
+							<p> The first JavaScript game that I ever made, by following a course on "Udemy.com". Gained a lot of fundamental experience that helped me to later create games without any additional aid from external sources.  
+							</p>
+
+							<button type="button" id = "web6Button" class = "projectButtons"> Learn More </button>
+						</div>
+					</div>
+				</div>
+			
+
+		
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/snakegame.png" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title"> Snake Game </div>
+							<p> The second JavaScript game that I created, with very little additional help from online sources. I soon plan on recreating this game with other languages such as Python and fixing a couple of bugs in terms of collision.
+							</p>
+
+							<button type="button" id = "web7Button" class = "projectButtons"> Learn More </button>
+						</div>
+					</div>
+				</div>
+			
+
+		
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/connect4.png" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title"> Connect 4 </div>
+							<p> The most recent JavaScript game that I created, without any additional help from online sources. I soon plan on adding an AI feature into this game.
+							</p>
+
+							<button type="button" id = "web8Button" class = "projectButtons"> Learn More </button>
+						</div>
+					</div>
+				</div>
+
+
+				</div>
+
+					<h1 class = "ProjSubTitle2" >software + hardware</h1>			
+
+				<div class = "row">
+
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/ShoePic.png" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title-small"> Piezoelectric Vibration-Sensing Shoe </div>
+							<p> Standing as the largest and most successful project that I have worked on until now, this is a novel device which helps those who are audibly and visually impaired to better navigate with safety. There's a lot to explain so click below to find out more! 
+							</p>
+
+							<button type="button" id = "web9Button" class = "projectButtons"> Learn More </button>
+						</div>
+					</div>
+				</div>
+
+		
+				<div class = "flip-container col-lg-3 col-md-4 col-sm-6 col-xs-12">
+					<div class = "flip-card ">
+						<div class = "front">
+							<div class = "frontImage">
+								<img src = "img/robotpic.jpg" class = "projectPic">
+							</div>
+						</div> 
+						<div class = "back">
+							<div class="back-title"> BlackJack Robot </div>
+							<p> An autonomous BlackJack playing robot that I created with my team during the first semester of Mechatronics Engineering at the University of Waterloo. The robot is capable of reading and dealing cards, and plays BlackJack with upto 5 players. 
+							</p>
+
+							<button type="button" id = "web10Button" class = "projectButtons"> Learn More </button>
+						</div>
+					</div>
+				</div>
+			
+
+			</div>
+
+				</article>
+			</section>
+		</div>
+
+
+		<div>
+			<section id="Section5">
+				<article id = "art5">
+
+					<h3 class="displayTitle"> -Experience- </h3>
+
+				</article>
+
+			</section>
+		</div>
+
+
+		<div>
+			<section id="Section6">
+				<article id = "art6">
+				 	<div class = "row expRow">
+				 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <img src="img/ministryLogo.jpg" class = "ExpLogo"></div>
+				 		<div class="ExpText col-lg-9 col-md-8 col-sm-6 col-xs-12"> 
+				 			<h3 class="expImgTitle"> <b> Ministry of Health and Long Term Care</b> <i> (May 2017 - August 2017) </i></h3>
+				 			<h3 class="ExpPosTitle"> Software Engineer <small><i>(CO-OP)</i></small> </h3>
+				 			<ul class="ExpParaText">
+				 				<li>Improved <span style = "font-weight:bold;">front-end web development</span> skills by converting existing sites from <span style = "font-weight:bold;">static to responsive design</span>.</li>
+				 				<li> Worked on the <span style = "font-weight:bold;">LILI</span> (Laboratory Inspection and Licensing Information) project, by assisting staff with <span style = "font-weight:bold;">data entry</span> and <span style = "font-weight:bold;">coding</span> tasks.</li>
+				 				<li> Strengthened knowledge of <span style = "font-weight:bold;">WCF services</span>, database manipulation and communication through <span style = "font-weight:bold;">SQL Server</span> and <span style = "font-weight:bold;">C#/LINQ</span>, and <span style = "font-weight:bold;">server-side programming</span> by helping integrate a web form to replace the previous excel spreadsheet method of accessing user input data.</li>
+
+				 			</ul>
+				 		</div>
+				 	</div>
+
+				 	<div class = "row expRow">
+				 		
+				 		<div class="ExpText col-lg-9 col-md-8 col-sm-6 col-xs-12" id = "ExpPara2Big"> 
+				 			<h3 class="expImgTitle"> <b>Toronto 2015 Pan Am/Parapan Am Games</b><i> (July 2015 - August 2015) </i></h3>
+				 			<h3 class="ExpPosTitle">Airport Transport Crew <small><i>(Volunteer)</i></small> </h3>
+				 			<ul class="ExpParaText">
+				 				<li>Worked at <span style = "font-weight:bold;">Lester B. Pearson International Airport</span> as a junior Transport Crew member. </li>
+				 				<li> <span style = "font-weight:bold;">Guided</span> international <span style = "font-weight:bold;">atheletes</span> to their respective <span style = "font-weight:bold;">destinations</span> within the GTA by showing them to their
+				 				buses and taxi's once they landed in the airport.</li>
+				 				<li>  <span style = "font-weight:bold;">Assisted</span> international atheletes who weren't fluent in english with their <span style = "font-weight:bold;">transportation</span>, and Parapan Am atheletes
+				 				with their <span style = "font-weight:bold;">equipment</span>. </li>
+				 				<li>Recieved <span style = "font-weight:bold;">108 volunteer hours</span>, counting towards highschool 40 hour requirement.</li>
+				 			</ul>
+				 		</div>
+				 		
+				 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <img src="img/panAm.png" class = "ExpLogo"></div>
+
+				 		<div class="ExpText col-lg-9 col-md-8 col-sm-6 col-xs-12" id = "ExpPara2Small"> 
+				 			<h3 class="expImgTitle"> <b>Toronto 2015 Pan Am/Parapan Am Games</b><i> (July 2015 - August 2015) </i></h3>
+				 			<h3 class="ExpPosTitle">Airport Transport Crew <small><i>(Volunteer)</i></small> </h3>
+				 			<ul class="ExpParaText">
+				 				<li>Worked at <span style = "font-weight:bold;">Lester B. Pearson International Airport</span> as a junior Transport Crew member. </li>
+				 				<li> <span style = "font-weight:bold;">Guided</span> international <span style = "font-weight:bold;">atheletes</span> to their respective <span style = "font-weight:bold;">destinations</span> within the GTA by showing them to their
+				 				buses and taxi's once they landed in the airport.</li>
+				 				<li>  <span style = "font-weight:bold;">Assisted</span> international atheletes who weren't fluent in english with their <span style = "font-weight:bold;">transportation</span>, and Parapan Am atheletes
+				 				with their <span style = "font-weight:bold;">equipment</span>. </li>
+				 				<li>Recieved <span style = "font-weight:bold;">108 volunteer hours</span>, counting towards highschool 40 hour requirement.</li>
+				 			</ul>
+				 		</div>
+				 	</div>
+
+				 	<div class = "row expRow">
+				 		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> <img src="img/ymca_uncool.png" class = "ExpLogo"></div>
+				 		<div class="ExpText col-lg-9 col-md-8 col-sm-6 col-xs-12"> 
+				 			<h3 class="expImgTitle"> <b> Young Men's Christian Association</b> <i> (July 2012 - August 2012) </i></h3>
+				 			<h3 class="ExpPosTitle">Youth Councillor <small><i>(Volunteer)</i></small> </h3>
+				 			<ul class="ExpParaText">
+				 				<li>Worked with staff to <span style = "font-weight:bold;">engage children</span>  between the ages of 6 and 9 during their summer vacations. </li>
+				 				<li> Entertained the camp attendees by organizing sport and game events.</li>
+				 				<li> <span style = "font-weight:bold;">Accompanied kids</span> on their weekly field trips to special locations such as <span style = "font-weight:bold;">splashpads</span>, <span style = "font-weight:bold;">parks</span> and even <span style = "font-weight:bold;">national heritage sites</span>.</li>
+				 				<li>Recieved <span style = "font-weight:bold;">143 hours</span> of volunteer experience towards highschool 40 hour requirement.</li>
+				 			</ul>
+				 		</div>
+				 	</div>
+
+				</article>
+
+			</section>
+		</div>
+
+		<div>
+			<section id="Section7">
+				<article id = "art7">
+
+					<h3 class="displayTitle" style="color:#4a4a4c"> -Contact- </h3>
+
+					<div id = "contactBox">
+					<h3 class = "contactTitle" style = "background-color: rgba(132, 41, 41, 0.7)">Email: </h3> <p class = "contactInfo">rohitsangaraju7@gmail.com</p>
+					<h3 class = "contactTitle" style = "background-color: rgba(188, 171, 45, 0.7)">Phone: </h3> <p class = "contactInfo">647-765-2065</p>
+					<h3 class = "contactTitle" style = "background-color: rgba(30, 86, 145, 0.7)">LinkedIn: </h3> <p class = "contactInfo">https://www.linkedin.com/in/rohit-sangaraju</p>
+					<h3 class = "contactTitle" style = "background-color: rgba(27, 135, 28, 0.7)">Github: </h3> <p class = "contactInfo">https://github.com/Slashin</p>
+					</div>
+<!-- 					<div id = "formContainer">
+					<form id = "contactForm" method = "post" name = "emailForm" action = "emailForm.php">
+						
+					<span>
+					<input type = "text" size = 20 name = "fn" placeholder="First Name">
+					
+					<input type = "text" size = 20 name = "ln" placeholder="Last Name">
+					</span>
+
+					<div>
+					<br>
+					
+					<input type = "text" size = 52 name="email" placeholder="Email Address">
+					<br><br>
+					
+					<textarea name="message" rows="10" cols="54" placeholder="Message"></textarea>
+					<br><br>
+					<input type = "submit" value="Submit">
+					</div>
+					</form>
+					</div> -->
+				</article>
+
+			</section>
+		</div>
+
+		<div id = "footerBox"> 
+			<footer>
+				<h3 id = "footerText">Rohit Sangaraju &copy; 2017</h3>
+			</footer>
+		</div>
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+</html>
+

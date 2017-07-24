@@ -1,0 +1,305 @@
+h1 {
+	text-align: center;
+	color: #2A3A3F;
+	font-family: 'raleway';
+}
+
+.container {
+	padding: 3vw;
+	border-right: 1vw solid #93C054;
+	border-left: 1vw solid #93C054;
+	border-radius: 1vw;
+	height: 15vw;
+	margin-bottom: 5vw;
+	text-align: justify;
+	font-size: 1.2vw;
+}
+
+p {
+	color: #7f8c8d;
+	font-family: 'raleway';
+	font-weight: bold;
+}
+
+.projCarBox {
+	width: 50%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.proj_image {
+	max-width: 100%;
+	height: 30vw;
+}
+
+
+#buttonContainer {
+	width: 100%;
+	margin: 0 auto;
+	height:3.2vw;
+	text-align: center;
+	margin-top: 5vw;
+}
+
+.button1, .button2, .button3, .button4, .button5 {
+	padding: 5px;
+	border-radius: 0.7vw;
+	border: 2px solid black;
+}
+
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover {
+	background-color: #b6b7ba; 
+}
+
+
+#footerBox {
+	top: 75vw;
+	position: absolute;
+ 	height: 4vw;
+ 	background-color: #ecf0f1;
+ 	color: black;
+ 	font-family: 'raleway';
+ 	text-align: center;
+ 	width: 100%;
+ 	padding: 1vw 5vw;
+}
+
+#footerText {
+	font-size: 1.5vw;
+	font-weight: bold;
+}
+
+
+@media (min-width: 1200px) and (max-width: 2000px) {
+
+	#footerBox {
+		top: 80vw;
+	}	
+	#buttonContainer {
+		margin-top: 7vw;
+	}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+	.projCarBox {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 5vw;
+	}
+
+	.proj_image {
+		width: 100%;
+		height: 45vw;
+	}
+
+	.container {
+		font-size: 2vw;
+		height: 25vw;
+	}
+
+	#footerBox {
+		top: 125vw;
+		height: 3.5vw;
+	}
+
+	#footerText {
+		font-size: 1.6vw;
+	}
+	#buttonContainer {
+		margin-top: 12vw;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.projCarBox {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 5vw;
+	}
+
+	.proj_image {
+		width: 100%;
+		height: 45vw;
+	}
+
+	.container {
+		font-size: 1.85vw;
+		height: 26vw;
+	}
+
+	#footerBox {
+		top: 135vw;
+		height: 4.6vw;
+	}
+
+	#footerText {
+		font-size: 2.5vw;
+	}
+	#buttonContainer {
+		margin-top: 12vw;
+	}
+
+
+
+}
+
+@media (min-width: 632px) and (max-width: 767px) {
+
+	.projCarBox {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 5vw;
+	}
+
+	.proj_image {
+		width: 100%;
+		height: 45vw;
+	}
+
+	.container {
+		font-size: 2vw;
+		height: 32vw;
+	}
+
+	#footerBox {
+		top: 160vw;
+		height: 6vw;
+	}
+
+	#footerText {
+		font-size: 4vw;
+	}
+	#buttonContainer {
+		margin-top: 17vw;
+	}
+
+
+
+
+}
+
+@media (min-width: 479px) and (max-width: 631px) {
+
+	.projCarBox {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 5vw;
+	}
+
+	.proj_image {
+		width: 100%;
+		height: 50vw;
+	}
+
+	.container {
+		font-size: 2.5vw;
+		height: 42vw;
+	}
+
+	#footerBox {
+		top: 180vw;
+		height: 10vw;
+	}
+
+	#footerText {
+		font-size: 5vw;
+	}
+	#buttonContainer {
+		margin-top: 17vw;
+	}
+
+
+}
+
+@media (min-width: 400px) and (max-width: 478px) {
+
+	
+	.projCarBox {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 5vw;
+	}
+
+	.proj_image {
+		width: 100%;
+		height: 50vw;
+	}
+
+	.container {
+		width: 95%;
+		font-size: 3.5vw;
+		height: 80vw;
+		border-right: 2vw solid #93C054;
+		border-left: 2vw solid #93C054;
+	}
+
+	#buttonContainer {
+		margin-top: 22vw;
+	}
+
+	#footerBox {
+		top: 235vw;
+		height: 12vw;
+	}
+
+	#footerText {
+		font-size: 5.5vw;
+	}
+
+
+}
+
+@media (min-width: 250px) and (max-width: 399px) {
+
+	body{
+		min-height: none;
+	}
+	.jumbotron {
+		font-size: 10vw;
+	}
+
+	.projCarBox {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 5vw;
+	}
+
+	.proj_image {
+		width: 100%;
+		height: 50vw;
+	}
+
+	.container {
+		width: 95%;
+		font-size: 3.5vw;
+		height: 74vw;
+		border-right: 2vw solid #93C054;
+		border-left: 2vw solid #93C054;
+	}
+
+	#buttonContainer {
+		margin-top: 30vw;
+	}
+
+	.buttonImg{
+		width: 25px;
+		height: 25px;
+	}
+
+	#footerBox {
+		top: 260vw;
+		height: 14vw;
+	}
+
+	#footerText {
+		font-size: 6.5vw;
+	}
+
+
+}
+
